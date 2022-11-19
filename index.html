@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
     <link
@@ -101,102 +101,108 @@
         </div>
       </section>
       <!-- Секція чим займаемось -->
-      <section>
-        <h2 class="tittle-section">Чим ми займаємося</h2>
-        <ul class="list">
-          <li>
-            <img
-              src="./images/Декстопні-додатки.jpg"
-              alt="Десктопні додатки"
-              width="370"
-              height="294"
-            />
-          </li>
-          <li>
-            <img
-              src="./images/Мобільні-додатки.jpg"
-              alt="Мобільні додатки"
-              width="370"
-              height="294"
-            />
-          </li>
-          <li>
-            <img
-              src="./images/Дизайнерські-рішення.jpg"
-              alt="Дизайнерські рішення"
-              width="370"
-              height="294"
-            />
-          </li>
-        </ul>
+      <section class="section what-we-do">
+        <div class="conteiner">
+          <h2 class="tittle-section">Чим ми займаємося</h2>
+          <ul class="list flex we-do">
+            <li>
+              <img
+                src="./images/Декстопні-додатки.jpg"
+                alt="Десктопні додатки"
+                width="370"
+                height="294"
+              />
+            </li>
+            <li>
+              <img
+                src="./images/Мобільні-додатки.jpg"
+                alt="Мобільні додатки"
+                width="370"
+                height="294"
+              />
+            </li>
+            <li>
+              <img
+                src="./images/Дизайнерські-рішення.jpg"
+                alt="Дизайнерські рішення"
+                width="370"
+                height="294"
+              />
+            </li>
+          </ul>
+        </div>
       </section>
       <!-- Секція Наша Команда -->
-      <section class="hero-team">
-        <h2 class="tittle-team">Наша команда</h2>
-        <ul class="list">
-          <li class="list-worker">
-            <img
-              src="./images/Product-designer.jpg"
-              alt="Дизайнер продукту"
-              width="270"
-              height="260"
-            />
-            <h3 class="tittle-team-worker">Ігор Дем'яненко</h3>
-            <p lang="en" class="tittle-worker-text">Product Designer</p>
-          </li>
-          <li class="list-worker">
-            <img
-              src="./images/Frontend-developer.jpg"
-              alt="Фронтенд розробник"
-              width="270"
-              height="260"
-            />
-            <h3 class="tittle-team-worker">Ольга Рєпіна</h3>
-            <p lang="en" class="tittle-worker-text">Frontend Developer</p>
-          </li>
-          <li class="list-worker">
-            <img
-              src="./images/Marketing-company.jpg"
-              alt="Головний Маркетолог"
-              width="270"
-              height="260"
-            />
-            <h3 class="tittle-team-worker">Микола Тарасов</h3>
-            <p lang="en" class="tittle-worker-text">Marketing</p>
-          </li>
-          <li class="list-worker">
-            <img
-              src="./images/UI-designer.jpg"
-              alt="Дизайнер інтерфейсу"
-              width="270"
-              height="260"
-            />
-            <h3 class="tittle-team-worker">Михайло Єрмаков</h3>
-            <p lang="en" class="tittle-worker-text">UI Designer</p>
-          </li>
-        </ul>
+      <section class="hero-team section">
+        <div class="conteiner">
+          <h2 class="tittle-team">Наша команда</h2>
+          <ul class="list flex">
+            <li class="list-worker">
+              <img
+                src="./images/Product-designer.jpg"
+                alt="Дизайнер продукту"
+                width="270"
+                height="260"
+              />
+              <h3 class="tittle-team-worker">Ігор Дем'яненко</h3>
+              <p lang="en" class="tittle-worker-text">Product Designer</p>
+            </li>
+            <li class="list-worker">
+              <img
+                src="./images/Frontend-developer.jpg"
+                alt="Фронтенд розробник"
+                width="270"
+                height="260"
+              />
+              <h3 class="tittle-team-worker">Ольга Рєпіна</h3>
+              <p lang="en" class="tittle-worker-text">Frontend Developer</p>
+            </li>
+            <li class="list-worker">
+              <img
+                src="./images/Marketing-company.jpg"
+                alt="Головний Маркетолог"
+                width="270"
+                height="260"
+              />
+              <h3 class="tittle-team-worker">Микола Тарасов</h3>
+              <p lang="en" class="tittle-worker-text">Marketing</p>
+            </li>
+            <li class="list-worker">
+              <img
+                src="./images/UI-designer.jpg"
+                alt="Дизайнер інтерфейсу"
+                width="270"
+                height="260"
+              />
+              <h3 class="tittle-team-worker">Михайло Єрмаков</h3>
+              <p lang="en" class="tittle-worker-text">UI Designer</p>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
     <!-- Футер -->
     <footer class="basement">
-      <a href="https://vanvalera.github.io/goit-markup-hw-02/index.html" class="logo-footer">
-        <span class="web">Web</span>Studio
-      </a>
-      <address>
-        <ul class="list">
-          <li>
-            <a href="https://goo.gl/maps/cJ9QzEwfVTvkRfvY8" class="list-address"
-              >м. Київ, пр-т Лесі Українки, 26</a
-            >
-          </li>
-          <li>
-            <a href="mailto:info@devstudio.com" class="list-tel">info@devstudio.com</a>
-          </li>
-          <li>
-            <a href="tel:+380961111111" class="list-tel">+38 096 111 11 11</a>
-          </li>
-        </ul>
-      </address>
+      <div class="conteiner">
+        <a href="https://vanvalera.github.io/goit-markup-hw-02/index.html" class="logo-footer">
+          <span class="web">Web</span>Studio
+        </a>
+        <address class="style-address">
+          <ul class="list">
+            <li class="item-footer">
+              <a href="https://goo.gl/maps/cJ9QzEwfVTvkRfvY8" class="list-address"
+                >м. Київ, пр-т Лесі Українки, 26</a
+              >
+            </li>
+            <li class="item-footer">
+              <a href="mailto:info@devstudio.com" class="list-tel">info@devstudio.com</a>
+            </li>
+            <li class="item-footer">
+              <a href="tel:+380961111111" class="list-tel">+38 096 111 11 11</a>
+            </li>
+          </ul>
+        </address>
+      </div>
     </footer>
   </body>
 </html>

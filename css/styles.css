@@ -26,6 +26,10 @@ ul {
   margin: 0xp;
   padding-left: 0px;
 }
+img {
+  display: block;
+  max-height: 100%;
+}
 .list {
   list-style: none;
 }
@@ -151,7 +155,14 @@ ul {
 .opportunity > li:not(:last-child) {
   margin-right: 30px;
 }
+.opportunity {
+  margin: 0px auto;
+}
+.opportunity > li {
+  max-width: 270px;
+}
 .tittle-opportunity {
+  margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -167,6 +178,7 @@ ul {
   color: #757575;
 }
 .tittle-section {
+  margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -174,11 +186,19 @@ ul {
   letter-spacing: 0.03em;
   color: var(--second-body-color);
 }
+/* ---------What We DO-------- */
+.we-do > li:not(:last-child) {
+  margin-right: 30px;
+}
+.section.what-we-do {
+  padding-top: 0px;
+}
 /* ---------Section Наша Команда---------- */
 .hero-team {
   background: #f5f4fa;
 }
 .tittle-team {
+  margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -187,6 +207,8 @@ ul {
   color: var(--second-body-color);
 }
 .tittle-team-worker {
+  margin-top: 30px;
+  margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -195,24 +217,29 @@ ul {
   color: var(--second-body-color);
 }
 .list-worker {
-  width: 270px;
-  height: 368px;
-  left: 515px;
-  top: 1632px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  background: var(--primary-body-color);
+}
+.hero-team .list-worker:not(:last-child) {
+  margin-right: 30px;
 }
 .tittle-worker-text {
+  margin-bottom: 30px;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
 }
+.hero-team ul {
+  margin: 0px;
+}
 /* --------footer---------- */
 .basement {
-  width: 1600px;
-  height: 252px;
-  left: 0px;
-  top: 2094px;
+  padding-top: 60px;
+  padding-bottom: 60px;
   background: var(--second-footer-color);
 }
 .logo-footer {
@@ -225,6 +252,7 @@ ul {
   text-decoration: none;
 }
 .list-address {
+  margin-bottom: 9px;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -246,6 +274,17 @@ ul {
 .list-address:hover,
 .list-address:focus {
   color: var(--accent-footer-color);
+}
+.style-address {
+  padding-top: 20px;
+  font-style: inherit;
+}
+.basement ul {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.item-footer:not(:last-child) {
+  margin-bottom: 9px;
 }
 /* ---------Body Portfolio---------- */
 .portfolio-btn {
